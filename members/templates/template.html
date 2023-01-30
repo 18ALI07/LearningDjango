@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{% static 'myglobal.css' %}">
+<head>
+    <meta charset="UTF-8">
+    <title>testing</title>
+</head>
+<body>
+<h1>this is django testing</h1>
+
+    {% for x in fruits%}
+
+<h1>
+    {{x}}
+</h1>
+{%endfor%}
+</body>
+</html>
